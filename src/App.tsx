@@ -1,6 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import './App.css';
-import HomePage from "./pages/home/HomePage.tsx";
 import Layout from "./layout/Layout.tsx";
 import '@mantine/core/styles.css';
 import {MantineProvider} from "@mantine/core";
@@ -18,7 +17,7 @@ export default function App() {
         children: [
             {
                 index: true,
-                element: <HomePage/>
+                element: <InvoiceUploadPage/>
             },
             {
                 path: "/upload",
