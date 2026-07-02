@@ -49,12 +49,12 @@ export default function InvoiceDownloadPage() {
                 Download Invoice
             </Title>
             <h1 className={"text-sm"}>
-                Download a PDF invoice from the Azure Blob Storage.
+                Download a .TXT invoice from the Azure Blob Storage.
             </h1>
 
         <TextInput
           label="Filename"
-          placeholder="e.g., invoice.pdf"
+          placeholder="e.g., invoice.txt"
           value={fileName}
           onChange={(e) => setFileName(e.currentTarget.value)}
           onKeyPress={handleKeyPress}
@@ -67,7 +67,7 @@ export default function InvoiceDownloadPage() {
           fullWidth
           disabled={loading}
         >
-          Download PDF
+          Download TXT
         </Button>
             {error && <Alert color="red">{error}</Alert>}
         </Paper>

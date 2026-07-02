@@ -47,7 +47,7 @@ export default function InvoiceUploadPage() {
                 </Title>
 
                 <h1 className={"text-sm"}>
-                    Upload a PDF invoice to Azure Blob Storage.
+                    Upload a .TXT invoice to Azure Blob Storage.
                 </h1>
 
                 <Input
