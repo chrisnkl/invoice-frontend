@@ -72,7 +72,7 @@ export default function InvoiceUploadPage() {
 
                 onClick={handleUploadClick}
             >
-                {loading && <Loader />}Upload
+                {loading && <Loader />}Upload TXT Invoice
             </Button>
             </Paper>
         </Container>

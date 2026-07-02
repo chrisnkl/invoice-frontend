@@ -67,7 +67,7 @@ export default function InvoiceDownloadPage() {
           fullWidth
           disabled={loading}
         >
-          Download TXT
+          Download TXT Invoice
         </Button>
             {error && <Alert color="red">{error}</Alert>}
         </Paper>
