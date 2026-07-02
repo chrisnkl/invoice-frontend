@@ -6,7 +6,7 @@ export async function downloadInvoice(fileName: string): Promise<Blob> {
     }
 
     const response = await fetch(
-        `${invoiceFunctionUrl}/invoices/${encodeURIComponent(fileName)}`
+        `${invoiceFunctionUrl}/invoices/${fileName}`
     );
 
     if (!response.ok) {
